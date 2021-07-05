@@ -29,6 +29,7 @@ body{
     color: #FFF;
     border: 1px solid #FFF;
     text-decoration: none;
+    border-radius: 3px;
 }
 .progress{
     margin-top: 5px;
@@ -96,14 +97,53 @@ body{
 #imgm{
     padding-left: 210px;
 }
-#led{
-    margin-left: 35%;
+/* .led{
+    text-align: center;
     background-image: url(images/le.png);
     background-repeat: no-repeat;
-    padding: 10px;
+    
 }
-h1{
-    
+.led h1{
     color: #FFF;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+} */
+.footer{
+    padding-top: 30px;
+    text-align: center;
+    background-image: url(images/b1.png);
+}
+.footer h1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 54px;
+    font-weight: 700;
+    color: #fff;
+}
+.footer p{
+    color: #fff;
+}
+.fotter-fucntion{
+    display: flex;
+    text-align: center;
+}
+.footer-img{
     
+    padding: 100px;
+}
+.footer-img .card-link{
+    background: transparent;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+}
+#footer-ll{
+    text-align: center;
+
 }
